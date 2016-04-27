@@ -15,7 +15,7 @@ yum groupinstall -y 'Development Tools'
 
 # git configurations
 git config --global user.email zhjwpku@gmail.com
-git config --global user.name Zhao Junwang
+git config --global user.name "Zhao Junwang"
 git config --global core.editor vim
 git config --global credential.helper store
 git config --global push.default simple
