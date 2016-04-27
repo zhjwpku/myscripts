@@ -7,6 +7,9 @@ yum update -y
 # install vim
 yum install -y vim
 
+# install bash-completion
+yum install -y bash-completion
+
 # install Extra Packages for Enterprise Linux
 yum install -y epel-release
 
