@@ -7,6 +7,9 @@ yum update -y
 # install vim
 yum install -y vim
 
+# install fpaste
+yum install -y fpaste
+
 # install bash-completion
 yum install -y bash-completion
 
