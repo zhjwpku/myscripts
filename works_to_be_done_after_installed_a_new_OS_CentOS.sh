@@ -13,6 +13,9 @@ yum install -y bash-completion
 # install htop, which is more interactive than top
 yum install -y htop
 
+# install iftop, display bandwidth usage
+yum install -y iftop
+
 # install Extra Packages for Enterprise Linux
 yum install -y epel-release
 
