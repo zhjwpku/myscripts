@@ -10,6 +10,9 @@ yum install -y vim
 # install bash-completion
 yum install -y bash-completion
 
+# install htop, which is more interactive than top
+yum install -y htop
+
 # install Extra Packages for Enterprise Linux
 yum install -y epel-release
 
