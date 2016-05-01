@@ -4,6 +4,9 @@ echo "blacklist pcspkr" > /etc/modprobe.d/blacklist.conf
 # update the system
 yum update -y
 
+# install Extra Packages for Enterprise Linux
+yum install -y epel-release
+
 # install vim
 yum install -y vim
 
@@ -19,8 +22,8 @@ yum install -y htop
 # install iftop, display bandwidth usage
 yum install -y iftop
 
-# install Extra Packages for Enterprise Linux
-yum install -y epel-release
+# install fio: flexible I/O tester
+yum install -y fio
 
 # install Development Tools
 yum groupinstall -y 'Development Tools'
