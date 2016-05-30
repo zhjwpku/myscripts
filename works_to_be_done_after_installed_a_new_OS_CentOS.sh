@@ -10,6 +10,9 @@ yum install -y epel-release
 # install vim
 yum install -y vim
 
+# install wget
+yum install -y wget
+
 # install fpaste
 yum install -y fpaste
 
