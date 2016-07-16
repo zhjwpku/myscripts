@@ -10,6 +10,9 @@ apt-get install vim -y
 # install Chromium
 apt-get install chromium-browser -y
 
+# install pastebinit, command-line pastebin client
+apt-get install pastebinit -y
+
 # install sogou pinyin
 #echo "deb http://archive.ubuntukylin.com:10006/ubuntukylin trusty main" > /etc/apt/sources.list.d/ubuntukylin.list
 #apt-get update -y
