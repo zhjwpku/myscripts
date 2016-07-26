@@ -10,6 +10,9 @@ apt-get install vim -y
 # install tree
 apt-get install tree -y
 
+# install unrar
+apt-get install unrar -y
+
 # install Chromium
 apt-get install chromium-browser -y
 
