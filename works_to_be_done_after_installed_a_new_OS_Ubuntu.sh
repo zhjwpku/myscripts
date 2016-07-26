@@ -7,6 +7,9 @@ apt-get upgrade -y
 # install vim
 apt-get install vim -y
 
+# install tree
+apt-get install tree -y
+
 # install Chromium
 apt-get install chromium-browser -y
 
