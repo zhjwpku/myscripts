@@ -10,6 +10,9 @@ yum install -y epel-release
 # install vim
 yum install -y vim
 
+# install tree, list contents of directories in a tree-like format
+yum install -y tree
+
 # install wget
 yum install -y wget
 

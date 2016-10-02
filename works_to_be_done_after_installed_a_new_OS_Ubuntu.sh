@@ -7,7 +7,7 @@ apt-get upgrade -y
 # install vim
 apt-get install vim -y
 
-# install tree
+# install tree, list contents of directories in a tree-like format
 apt-get install tree -y
 
 # install unrar
