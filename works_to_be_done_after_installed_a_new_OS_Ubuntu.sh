@@ -39,3 +39,10 @@ apt-get remove unity-webapps-common -y
 
 # autoremove
 apt autoremove -y
+
+# vim configurations
+echo "set nu" >> /etc/vim/vimrc
+echo "set ts=4" >> /etc/vim/vimrc
+echo "set sw=4" >> /etc/vim/vimrc
+echo "set expandtab" >> /etc/vim/vimrc
+echo "set ai" >> /etc/vim/vimrc

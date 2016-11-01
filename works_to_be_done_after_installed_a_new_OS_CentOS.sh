@@ -40,3 +40,10 @@ git config --global user.name "Zhao Junwang"
 git config --global core.editor vim
 git config --global credential.helper store
 git config --global push.default simple
+
+# vim configurations
+echo "set nu" >> /etc/vimrc
+echo "set ts=4" >> /etc/vimrc
+echo "set sw=4" >> /etc/vimrc
+echo "set expandtab" >> /etc/vimrc
+echo "set ai" >> /etc/vimrc
